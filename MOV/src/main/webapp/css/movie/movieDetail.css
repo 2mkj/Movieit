@@ -1,0 +1,23 @@
+@font-face {font-family:'a시월구일2';src: url('../../font/a시월구일2.ttf') format('truetype');}
+body {background: #e3e3e3 !important;}
+.wrapp {height: 2000px;}
+.community1 {height: auto;background: #fafafa;border-radius: 20px;padding: 80px 150px 160px 150px;margin: 10px auto;}
+.row{width: 700px;margin: 0 auto;}
+footer {bottom: 0px;height: 3rem;background-color: #ccc;width: 100%;text-align: center;line-height: 3rem;}
+.fa-star{color:#404040!important;font-size:18px;cursor:default!important;}
+.fa-heart-o, .fa-heart {font-size: 32px;color: #f72840;}
+#zzim {border: none;background: transparent;}
+.moviebtn {width: 200px;font-size: 30px;background: black;color: white;border-radius: 10px}
+.minfo{font-size:22px;font-family:'a시월구일2';padding:5px 0px;color:#404040}
+.title{display:inline-block;border-bottom:1px solid silver;}
+.title1{font-size:38px;padding:5px 0px;font-family:'a시월구일2';}
+.actor{font-size:16px}
+#mlabel{font-size:20px;font-family:'a시월구일2';margin:10px}
+#sero{font-size:22px;font-family:sans-serif;color:silver;font-weight:lighter;}
+.zzim1{border-bottom:1px solid silver;}
+.col{padding:4px}
+.content{font-size:14px;padding:20px}
+.addmovie{text-align: right;margin-bottom:20px}
+@media (min-width: 768px){
+.row { margin:0;width:auto;}
+}

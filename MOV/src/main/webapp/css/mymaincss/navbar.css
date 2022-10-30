@@ -1,0 +1,122 @@
+/* 폰트 */
+ @font-face {font-family:'a시월구일3';src: url("../../font/a시월구일3.ttf") format('truetype');}
+ @font-face {font-family:'a시월구일2';src: url('../../font/a시월구일2.ttf') format('truetype');}
+
+/* 마진 조절 */
+ *{text-decoration: none;}
+ body > nav{padding:0 !important;}
+ .navbar{padding: 0 !important; z-index: 999;}
+ .mi-auto {margin-right: 370px;}
+ .admin-auto{margin-right: auto;}
+ @media screen and (max-width:1500px) {
+    .container>a {margin-left:40px !important;}
+    .mi-auto {margin-right: auto;}
+ }
+
+/*로고*/
+ .navbar-brand{margin-top:5px;font-size:28px !important;color:#f80 !important;font-family: 'a시월구일3', Do Hyeon, sans-serif;}
+ .container>a{margin-left:130px;}
+ .container>a:hover {
+  	color: #f35626;
+ 	 background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+ 	 background-clip: text;
+ 	 background: transparent;
+ 	 animation: hue 3s infinite linear;
+ }
+@keyframes hue {
+ 	 from {-webkit-filter: hue-rotate(0deg);}
+ 	 to {-webkit-filter: hue-rotate(-360deg);}
+}
+.container>a:hover{
+ 	 transform: scale(1.2);
+}
+
+/* 메뉴 */
+ .nav-item{margin:11px 7px 0 45px;font-size:20px !important;color:#d0d5d9 !important;font-family: 'a시월구일2','Do Hyeon', sans-serif;}
+ .nav-item>a{text-decoration:none !important;color:#b5b5b5!important;}
+ .nav-item>a:active{color:rgb(255 255 255 / 100%) !important;}
+ .nav-item>a:hover{color:rgb(255, 255, 255) !important;}
+
+/* 검색바 */
+ .form-control{height:29px;}
+ .form-control:focus{outline:0 none; border:none;}
+ #navbarsExample07 > form{margin: 11px -25px 3px 0px;}
+ #navbarsExample07 > form > input{padding:6px 28px 6px 5px;}
+ .searcharea>input:focus{border:none !important;}
+ @media (max-width: 1000px){
+ #navbarsExample07 > form > input{width:200px;padding-right:0}
+}
+/* 입력창 x버튼 안나오게 */
+ input::-ms-clear,input::-ms-reveal{display:none;width:0;height:0;}
+ input::-webkit-search-decoration,
+ input::-webkit-search-cancel-button,
+ input::-webkit-search-results-button,
+ input::-webkit-search-results-decoration{display:none;}
+
+/* 검색 이모티콘 */
+ .search_btn{font-size:20px;margin: 11px 20px 6px 0px;}
+ .fa{color:#a8b4bf;}
+ .fa:hover{cursor:pointer}
+
+/* 로그인|회원가입 버튼 */
+ #btn1{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-right:-3px;
+ }
+ #btn2{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left:-3px;
+ }
+ #btn_group {
+	margin:15px 20px 6px 0px;
+	width:195px;
+	font-family: 'a시월구일2';
+ }
+ #btn_group input{
+	width:74px;
+	font-size:15px;
+	border:0.5px solid #545454;
+	background-color:#212529;
+	color:#d0d5d9;
+	padding:3.8px;
+ }
+ #btn_group input:hover{
+	background:white;
+	color:#545454;
+	font-weight:bold;
+	outline:none; border:none;
+	transition: all 0.6s ease
+ } 
+ #btn_group input:active{
+	outline:none; border:none;
+ }
+
+/* 드롭다운 메뉴 */
+#navbarsExample07 > div.dropdown > button{color:#d0d5d9;}
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #545454;
+   min-width: 130px;
+   text-align:center;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   color:#d0d5d9;
+ }
+ .dropdown-content{width:100px;}
+ .dropdown-content a {
+   color: white;
+   padding: 5px 10px;
+   text-decoration: none;
+   display: block;
+   font-family: 'Nanum Barun Gothic', sans-serif;	
+   font-size:16px;
+ }
+ .dropbtn{background:#212529; border:none; font-size:17px; padding-top:8px; padding-right:90px;}
+ .dropbtn:active{outline:none;}
+ .dropdown-content a:hover {background-color: #ddd; color:black;}
+ .dropdown:hover .dropdown-content {display: block;}
+ .dropdown:hover .dropbtn {background-color: #212529;}
+

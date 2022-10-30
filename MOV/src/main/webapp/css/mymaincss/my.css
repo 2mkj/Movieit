@@ -1,0 +1,111 @@
+@font-face {font-family:'a시월구일2';src: url('../../font/a시월구일2.ttf') format('truetype');}
+h3{font-family: 'a시월구일2';text-align: center; color: #f80;margin:10px 0 20px 0;}
+.updatep{margin-top:20px; margin-left:48px;}
+td{padding:5px; color:#454545; font-size: 15px;}
+.updatep>tbody>tr>td{height:42px; font-size: 15px; color:#333333}
+#post{width:250px}
+.profilep{width:30px;height:30px; border-radius:50%;}
+input:focus,textarea:focus{outline-color:orange;outline-style: solid;outline-width:0.5px;}
+td>input[type=text], td>input[type=password] {
+	background: #f5f5f5;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 9px 10px;
+    width: 350px;
+    height: 40px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+}
+input[type=radio]{width: 5%;display: inline-block;border: none;accent-color:grey;}
+.update {background-color:#fafafa;margin: 5% auto 5% auto;border: 1px solid lightgray;
+    	 border-radius:14px;width: 700px;padding: 16px 50px;}
+/* 작성 게시판 */
+ol, ul{padding-left: 0 !important;}
+.mytable{width:100%;margin:44px auto 45px auto;}	
+.mytable>tbody>tr{border-bottom:1px solid lightgray}
+.mytable>tbody>tr>td>div>a{text-decoration:none;color:#3b3b3b;}
+/* 리뷰 게시판 */
+.mytable>.myreview>tr:nth-child(1)>td:nth-child(1){width:20% !important;} 
+.mytable>.myreview>tr:nth-child(1)>td:nth-child(2){width:50% !important;} 
+.mytable>.myreview>tr:nth-child(1)>td:nth-child(3){width:17% !important;} 
+.mytable>.myreview>tr:nth-child(1)>td:nth-child(4){width:10% !important; padding-right:3px} 
+/* 글, 댓글 게시판 */
+.mytable>thead>tr>td{border-bottom: 1px solid silver;vertical-align: baseline;}
+.mytable>tbody>tr:nth-child(1)>td:nth-child(1){width: 70%;} 
+.mytable>tbody>tr:nth-child(1)>td:nth-child(2){width: 17%} 
+.mytable>tbody>tr:nth-child(1)>td:nth-child(3){width: 10%; } 
+/* 페이징 & 검색바 */
+.hovernone{color:#363636;}
+.pageActive{color:white!important; background: #f80;border-radius:50%; font-weight:bold;}
+li.page-item > a:hover{color:#f80!important;}
+li.page-item > a:active{color:white!important; background: #f80;border-radius:50%; font-weight:bold;}
+li.page-item , li.page-item > a{text-decoration:none;color:#363636;padding:0 3px;}
+li.page-item > a{display:inline-block;padding:0 8px; border-radius:50%;}
+.my_search{margin: 50px 0px 111px 200px;}
+#mySearchinput{border:1px solid silver}
+.mySearch1{border:1px solid silver; color:#363636}
+#modifybtn{margin-right:6px}
+#modifybtn,#deletebtn1{cursor:pointer;}
+/* 버튼 */
+.mybutton{margin:60px 140px 120px 140px;}
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #53ca93;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "a시월구일2",sans-serif;
+  font-size: 26px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0 17px;
+  min-height: 44px;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 120px;
+}
+.button-5:hover {transform: translateY(-1px);}
+
+/* 우편번호 버튼 */
+.postb{font-size:15px;width:94px;height:17px!important; margin:0!important;  background-color: #f80;}
+.postb:hover,.postb:focus {
+  background-color: #ffa033 !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.postb:active {background-color: #ffa033;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+/* 수정 버튼 */
+.button-5:hover,.button-5:focus {
+  background-color: #66eaad;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.button-5:active {background-color: #53ca93;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+/* 탈퇴 버튼 */
+.signoutb{background-color: #e86478;}
+.signoutb:hover,.signoutb:focus {
+  background-color: #f98597;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.signoutb:active {background-color: #e86478;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}

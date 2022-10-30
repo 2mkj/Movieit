@@ -1,0 +1,14 @@
+.container {
+  background-color: whitesmoke;
+  padding: 20px 20px;
+  width: 980px;
+  min-width: 200px;
+}
+
+h3 {
+	
+  line-height: 150px;
+  text-align: center;
+  height: 150px;
+}
+

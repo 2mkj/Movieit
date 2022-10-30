@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@font-face {font-family: 'a시월구일3';src: url("../font/a시월구일3.ttf") format('truetype');}
+@font-face {font-family: 'a시월구일2';src: url('../font/a시월구일2.ttf') format('truetype');}
+
+* {box-sizing: border-box}
+
+
+/*배경색*/
+body {background-color: #E3E3E3 !important;}
+
+
+/*폼*/
+form.join {
+	font-family: 'a시월구일2';
+	color: #d0d5d9;
+    background-color: #212529;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid lightgray;
+    width: 800px; /* Could be more or less, depending on screen size */
+    padding: 100px 30px;
+    border-radius: 20px;
+}
+
+
+/*입력 창*/
+input{border-radius:3px;border:1px solid lightgray}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+
+/*버튼*/
+button {
+    background-color: #f80;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer; /* 손가락 커서 모양 */
+    width: 29%;
+    opacity: 0.9;
+    border-radius:3px !important;
+}
+
+button:hover {opacity:1;}
+
+
+/*인증, 우편번호 검색 버튼*/
+#email_check, #postcode {
+	white-space:nowrap;
+	display: inline-block;
+	width:20%;
+	margin: 0px 0px 0px 1px;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+
+/*성별 간격*/
+#gender2{
+	padding-left:5em;
+}
+
+
+/*주민등록번호 입력창*/
+.jumin{
+	white-space:nowrap;
+	display: inline-block;
+	width: 48.2%;
+}
+
+
+/*우편번호 입력창*/
+.post{
+	white-space:nowrap;
+	display: inline-block;
+	width: 60%;
+}
+
+
+/*우편번호 검색 버튼*/
+#postcode{width:65%;}
+
+
+/*회원가입, 취소 버튼*/
+.clearfix {text-align: center;}
